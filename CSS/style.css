@@ -254,3 +254,32 @@ body {
   color: #666;
   margin: 0;
 }
+
+/* ANIMATIONSSSS */
+.useless-box, .useless-box2 {
+  animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+img#profile-pic {
+  animation: zoomIn 2s ease-out;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
