@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my-CV</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="navbar-left">
+      <span class="name-highlight">M.Ibrahim Khan</span> / Student
+    </div>
+    <ul class="navbar-right">
+      <li class="mode-toggle">
+        <button class="mode-btn">Mode</button>
+        <ul class="mode-menu">
+          <li onclick="setLight()">Light</li>
+          <li onclick="setDark()">Dark</li>
+        </ul>
+      </li>
+
+      <li><a href="images/my-cv.jpg" download="Ibrahim_Khan_CV.jpg">Download CV</a></li>
+      
+      <li><a href="#the-end">Contact</a></li>
+    </ul>
+  </nav>
+
+   <div class="useless-box"> 
+    <img src="images/pfp.jpg" id="profile-pic" alt="Profile Picture" > 
+    <span class="name-highlight2">M.Ibrahim Khan</span>
+    <p class = "txt">Student | Aspiring Software Developer | Tech Enthusiast</p>
+    <div class="box-footer" >
+      <div class="icons">
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-github"></i>
+      </div>
+
+    </div>
+  
+  </div>
+
+   <div class="useless-box2">
+    <div class="cv-content">
+
+      <h2>About Me</h2>
+      <p>
+        Computer Science student with a strong interest in web development,
+        problem solving, and UI design. Passionate about building clean,
+        user-friendly interfaces and learning new technologies.
+      </p>
+
+      <h2>Education</h2>
+      <p>
+        <strong>BS Computer Science</strong><br>
+        FAST NUCES<br>
+        2023 – Present
+      </p>
+
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>C++, Python</li>
+        <li>Data Structures & Algorithms</li>
+        <li>Responsive Web Design</li>
+      </ul>
+
+      <h2>Projects</h2>
+      <ul>
+        <li>Personal Portfolio Website</li>
+        <li>Online Clothing Store UI</li>
+        <li>Document-based Chatbot (AI Project)</li>
+      </ul>
+
+    </div>
+
+   </div>
+
+   </div>
+
+
+  <div class="content-spacer"></div>
+
+  <footer id ="the-end">
+    <div class="footer-content">
+      <h3>Contact Me</h3>
+      <div class="contact-info">
+        <p><i class="fa-solid fa-envelope"></i> ibi8f2088@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> +92 XXX XXXXXXX</p>
+        <p><i class="fa-solid fa-location-dot"></i> Lahore, Pakistan</p>
+      </div>
+    </div>
+    <p class="footer-copyright">© 2026 M.Ibrahim Khan. All rights reserved.</p>
+  </footer>
+
+
+  <script>
+  function setLight() {
+    document.body.style.backgroundColor = "white";
+    document.body.style.color = "black";
+  }
+
+  function setDark() {
+    document.body.style.backgroundColor = "#1a1a1a";
+    document.body.style.color = "white";
+  }
+</script>
+
+
+
+</body>
+</html>
